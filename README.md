@@ -1,0 +1,2 @@
+# Handwritten_Malayalam_Character_Recognition_using_KAN
+Handwritten Malayalam Character Recognition using Kolmogorov Arnold Networks
