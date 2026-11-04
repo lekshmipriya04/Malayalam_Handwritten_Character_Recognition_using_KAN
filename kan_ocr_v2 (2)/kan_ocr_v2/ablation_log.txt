@@ -1,0 +1,121 @@
+device: cuda
+
+=== linear_baseline ===
+[linear_baseline] epoch 1/15 train_loss=4.7825 train_acc=1.16% val_loss=4.7812 val_acc=1.24% (3.9s)
+[linear_baseline] epoch 2/15 train_loss=4.7204 train_acc=1.78% val_loss=4.6264 val_acc=1.52% (2.5s)
+[linear_baseline] epoch 3/15 train_loss=4.6205 train_acc=1.99% val_loss=4.5185 val_acc=2.09% (2.7s)
+[linear_baseline] epoch 4/15 train_loss=4.5128 train_acc=3.07% val_loss=4.3519 val_acc=4.28% (2.6s)
+[linear_baseline] epoch 5/15 train_loss=4.3115 train_acc=4.90% val_loss=4.1196 val_acc=5.89% (2.7s)
+[linear_baseline] epoch 6/15 train_loss=4.1559 train_acc=5.06% val_loss=3.9468 val_acc=6.56% (2.6s)
+[linear_baseline] epoch 7/15 train_loss=4.0144 train_acc=5.87% val_loss=3.8479 val_acc=6.56% (2.5s)
+[linear_baseline] epoch 8/15 train_loss=3.9823 train_acc=5.71% val_loss=3.7671 val_acc=9.03% (3.0s)
+[linear_baseline] epoch 9/15 train_loss=3.8831 train_acc=6.87% val_loss=3.7111 val_acc=9.41% (2.6s)
+[linear_baseline] epoch 10/15 train_loss=3.8527 train_acc=7.33% val_loss=3.6798 val_acc=9.22% (2.7s)
+[linear_baseline] epoch 11/15 train_loss=3.8244 train_acc=7.52% val_loss=3.6541 val_acc=10.65% (2.5s)
+[linear_baseline] epoch 12/15 train_loss=3.7677 train_acc=8.81% val_loss=3.6289 val_acc=11.79% (2.6s)
+[linear_baseline] epoch 13/15 train_loss=3.7768 train_acc=8.97% val_loss=3.6218 val_acc=10.93% (2.6s)
+[linear_baseline] epoch 14/15 train_loss=3.8025 train_acc=8.27% val_loss=3.6162 val_acc=10.93% (2.7s)
+[linear_baseline] epoch 15/15 train_loss=3.7962 train_acc=7.89% val_loss=3.6121 val_acc=11.22% (2.6s)
+--- linear_baseline: best_val_acc=11.79% test_acc=10.70% params=161,391 time=42.0s ---
+
+=== kan1_grid5 ===
+[kan1_grid5] epoch 1/15 train_loss=4.7550 train_acc=1.27% val_loss=4.7667 val_acc=1.24% (2.9s)
+[kan1_grid5] epoch 2/15 train_loss=4.6315 train_acc=2.32% val_loss=4.5407 val_acc=3.42% (2.7s)
+[kan1_grid5] epoch 3/15 train_loss=4.5315 train_acc=3.48% val_loss=4.3883 val_acc=3.99% (2.6s)
+[kan1_grid5] epoch 4/15 train_loss=4.3993 train_acc=4.45% val_loss=4.2697 val_acc=4.37% (2.6s)
+[kan1_grid5] epoch 5/15 train_loss=4.2429 train_acc=5.74% val_loss=4.0793 val_acc=6.65% (2.6s)
+[kan1_grid5] epoch 6/15 train_loss=4.0874 train_acc=7.03% val_loss=3.9011 val_acc=8.27% (2.6s)
+[kan1_grid5] epoch 7/15 train_loss=3.9242 train_acc=8.76% val_loss=3.7837 val_acc=9.32% (2.6s)
+[kan1_grid5] epoch 8/15 train_loss=3.7988 train_acc=9.81% val_loss=3.6713 val_acc=8.65% (2.6s)
+[kan1_grid5] epoch 9/15 train_loss=3.7201 train_acc=10.88% val_loss=3.5933 val_acc=12.07% (3.0s)
+[kan1_grid5] epoch 10/15 train_loss=3.7024 train_acc=12.23% val_loss=3.5244 val_acc=12.83% (2.7s)
+[kan1_grid5] epoch 11/15 train_loss=3.6418 train_acc=11.61% val_loss=3.4944 val_acc=13.12% (2.5s)
+[kan1_grid5] epoch 12/15 train_loss=3.5710 train_acc=14.30% val_loss=3.4723 val_acc=13.40% (2.6s)
+[kan1_grid5] epoch 13/15 train_loss=3.5575 train_acc=14.25% val_loss=3.4602 val_acc=13.69% (2.7s)
+[kan1_grid5] epoch 14/15 train_loss=3.5605 train_acc=14.82% val_loss=3.4469 val_acc=14.35% (2.5s)
+[kan1_grid5] epoch 15/15 train_loss=3.5461 train_acc=14.41% val_loss=3.4471 val_acc=14.64% (2.6s)
+--- kan1_grid5: best_val_acc=14.64% test_acc=16.82% params=387,320 time=40.6s ---
+
+=== kan1_grid8 ===
+[kan1_grid8] epoch 1/15 train_loss=4.7771 train_acc=1.51% val_loss=4.7705 val_acc=1.33% (2.8s)
+[kan1_grid8] epoch 2/15 train_loss=4.6489 train_acc=2.77% val_loss=4.5276 val_acc=4.18% (2.7s)
+[kan1_grid8] epoch 3/15 train_loss=4.5169 train_acc=2.94% val_loss=4.4043 val_acc=3.23% (2.6s)
+[kan1_grid8] epoch 4/15 train_loss=4.3969 train_acc=4.39% val_loss=4.2435 val_acc=4.56% (2.6s)
+[kan1_grid8] epoch 5/15 train_loss=4.2485 train_acc=5.33% val_loss=4.1294 val_acc=6.46% (2.6s)
+[kan1_grid8] epoch 6/15 train_loss=4.1516 train_acc=5.66% val_loss=3.9983 val_acc=7.70% (2.6s)
+[kan1_grid8] epoch 7/15 train_loss=4.0159 train_acc=7.38% val_loss=3.8180 val_acc=9.60% (2.5s)
+[kan1_grid8] epoch 8/15 train_loss=3.8905 train_acc=8.67% val_loss=3.7136 val_acc=11.50% (2.7s)
+[kan1_grid8] epoch 9/15 train_loss=3.7751 train_acc=9.89% val_loss=3.6902 val_acc=10.55% (2.6s)
+[kan1_grid8] epoch 10/15 train_loss=3.7342 train_acc=11.23% val_loss=3.5583 val_acc=12.26% (2.8s)
+[kan1_grid8] epoch 11/15 train_loss=3.6478 train_acc=12.20% val_loss=3.5167 val_acc=12.07% (2.8s)
+[kan1_grid8] epoch 12/15 train_loss=3.6314 train_acc=12.63% val_loss=3.5008 val_acc=13.59% (2.6s)
+[kan1_grid8] epoch 13/15 train_loss=3.6163 train_acc=12.53% val_loss=3.4954 val_acc=13.12% (2.5s)
+[kan1_grid8] epoch 14/15 train_loss=3.5821 train_acc=13.77% val_loss=3.4777 val_acc=13.50% (2.6s)
+[kan1_grid8] epoch 15/15 train_loss=3.5982 train_acc=13.34% val_loss=3.4718 val_acc=14.07% (2.5s)
+--- kan1_grid8: best_val_acc=14.07% test_acc=14.53% params=478,712 time=40.1s ---
+
+=== kan2_grid5 ===
+[kan2_grid5] epoch 1/15 train_loss=4.7717 train_acc=1.13% val_loss=4.7616 val_acc=1.43% (2.8s)
+[kan2_grid5] epoch 2/15 train_loss=4.6679 train_acc=2.75% val_loss=4.5551 val_acc=3.33% (2.6s)
+[kan2_grid5] epoch 3/15 train_loss=4.5014 train_acc=3.42% val_loss=4.3142 val_acc=4.56% (2.7s)
+[kan2_grid5] epoch 4/15 train_loss=4.2144 train_acc=5.31% val_loss=4.0094 val_acc=6.84% (2.6s)
+[kan2_grid5] epoch 5/15 train_loss=3.9290 train_acc=7.73% val_loss=3.7620 val_acc=8.56% (2.6s)
+[kan2_grid5] epoch 6/15 train_loss=3.7459 train_acc=9.24% val_loss=3.7065 val_acc=9.22% (2.6s)
+[kan2_grid5] epoch 7/15 train_loss=3.6492 train_acc=9.97% val_loss=3.6300 val_acc=8.75% (2.7s)
+[kan2_grid5] epoch 8/15 train_loss=3.5554 train_acc=12.12% val_loss=3.5945 val_acc=12.07% (2.6s)
+[kan2_grid5] epoch 9/15 train_loss=3.5421 train_acc=12.53% val_loss=3.4800 val_acc=12.36% (2.6s)
+[kan2_grid5] epoch 10/15 train_loss=3.5017 train_acc=12.98% val_loss=3.4407 val_acc=12.36% (3.0s)
+[kan2_grid5] epoch 11/15 train_loss=3.4553 train_acc=14.14% val_loss=3.4021 val_acc=13.12% (2.6s)
+[kan2_grid5] epoch 12/15 train_loss=3.4016 train_acc=14.74% val_loss=3.3577 val_acc=14.26% (2.5s)
+[kan2_grid5] epoch 13/15 train_loss=3.4065 train_acc=15.03% val_loss=3.3381 val_acc=12.93% (2.7s)
+[kan2_grid5] epoch 14/15 train_loss=3.3797 train_acc=15.38% val_loss=3.3267 val_acc=14.83% (2.7s)
+[kan2_grid5] epoch 15/15 train_loss=3.3795 train_acc=15.22% val_loss=3.3237 val_acc=14.92% (2.7s)
+--- kan2_grid5: best_val_acc=14.92% test_acc=17.58% params=545,144 time=40.5s ---
+
+=== kan2_grid8 ===
+[kan2_grid8] epoch 1/15 train_loss=4.7661 train_acc=1.16% val_loss=4.7687 val_acc=2.00% (3.0s)
+[kan2_grid8] epoch 2/15 train_loss=4.6360 train_acc=3.02% val_loss=4.5222 val_acc=4.09% (2.7s)
+[kan2_grid8] epoch 3/15 train_loss=4.4850 train_acc=3.23% val_loss=4.3462 val_acc=5.04% (2.6s)
+[kan2_grid8] epoch 4/15 train_loss=4.2404 train_acc=5.28% val_loss=4.1141 val_acc=5.99% (2.6s)
+[kan2_grid8] epoch 5/15 train_loss=3.9594 train_acc=7.52% val_loss=3.7758 val_acc=9.51% (2.6s)
+[kan2_grid8] epoch 6/15 train_loss=3.7954 train_acc=9.00% val_loss=3.7358 val_acc=10.46% (2.6s)
+[kan2_grid8] epoch 7/15 train_loss=3.7013 train_acc=10.13% val_loss=3.6064 val_acc=12.36% (2.6s)
+[kan2_grid8] epoch 8/15 train_loss=3.6015 train_acc=11.48% val_loss=3.5127 val_acc=13.21% (2.7s)
+[kan2_grid8] epoch 9/15 train_loss=3.5454 train_acc=12.53% val_loss=3.5217 val_acc=12.93% (2.7s)
+[kan2_grid8] epoch 10/15 train_loss=3.4835 train_acc=13.28% val_loss=3.4416 val_acc=13.97% (2.6s)
+[kan2_grid8] epoch 11/15 train_loss=3.4304 train_acc=14.09% val_loss=3.3875 val_acc=15.21% (3.0s)
+[kan2_grid8] epoch 12/15 train_loss=3.4099 train_acc=14.87% val_loss=3.3801 val_acc=15.49% (2.6s)
+[kan2_grid8] epoch 13/15 train_loss=3.4197 train_acc=14.57% val_loss=3.3776 val_acc=14.73% (2.6s)
+[kan2_grid8] epoch 14/15 train_loss=3.4032 train_acc=14.36% val_loss=3.3500 val_acc=15.87% (2.6s)
+[kan2_grid8] epoch 15/15 train_loss=3.3795 train_acc=15.36% val_loss=3.3556 val_acc=15.78% (2.7s)
+--- kan2_grid8: best_val_acc=15.87% test_acc=17.89% params=689,144 time=41.0s ---
+
+=== kan2_grid8_hidden64 ===
+[kan2_grid8_hidden64] epoch 1/15 train_loss=4.7680 train_acc=1.54% val_loss=4.7615 val_acc=1.62% (3.0s)
+[kan2_grid8_hidden64] epoch 2/15 train_loss=4.6667 train_acc=2.32% val_loss=4.5593 val_acc=3.23% (2.6s)
+[kan2_grid8_hidden64] epoch 3/15 train_loss=4.5326 train_acc=2.91% val_loss=4.4184 val_acc=2.95% (2.7s)
+[kan2_grid8_hidden64] epoch 4/15 train_loss=4.3331 train_acc=5.41% val_loss=4.1516 val_acc=5.04% (2.6s)
+[kan2_grid8_hidden64] epoch 5/15 train_loss=4.0544 train_acc=6.57% val_loss=3.9559 val_acc=8.84% (2.7s)
+[kan2_grid8_hidden64] epoch 6/15 train_loss=3.9183 train_acc=7.52% val_loss=3.7624 val_acc=8.37% (2.7s)
+[kan2_grid8_hidden64] epoch 7/15 train_loss=3.7463 train_acc=9.54% val_loss=3.7193 val_acc=9.41% (2.8s)
+[kan2_grid8_hidden64] epoch 8/15 train_loss=3.6513 train_acc=12.02% val_loss=3.6686 val_acc=10.36% (2.5s)
+[kan2_grid8_hidden64] epoch 9/15 train_loss=3.6103 train_acc=12.34% val_loss=3.5215 val_acc=12.64% (2.7s)
+[kan2_grid8_hidden64] epoch 10/15 train_loss=3.5592 train_acc=12.74% val_loss=3.4965 val_acc=11.50% (3.1s)
+[kan2_grid8_hidden64] epoch 11/15 train_loss=3.5214 train_acc=13.44% val_loss=3.5161 val_acc=12.93% (2.6s)
+[kan2_grid8_hidden64] epoch 12/15 train_loss=3.5234 train_acc=13.47% val_loss=3.4486 val_acc=12.74% (2.7s)
+[kan2_grid8_hidden64] epoch 13/15 train_loss=3.5010 train_acc=14.66% val_loss=3.4529 val_acc=13.02% (2.6s)
+[kan2_grid8_hidden64] epoch 14/15 train_loss=3.4918 train_acc=14.01% val_loss=3.4321 val_acc=13.02% (2.6s)
+[kan2_grid8_hidden64] epoch 15/15 train_loss=3.4690 train_acc=14.71% val_loss=3.4355 val_acc=13.21% (2.7s)
+--- kan2_grid8_hidden64: best_val_acc=13.21% test_acc=15.14% params=401,144 time=41.3s ---
+
+
+=== ABLATION SUMMARY ===
+name                       val_acc  test_acc  train_acc      params   time_s
+kan2_grid8                  15.87%    17.89%     15.36%     689,144    41.0s
+kan2_grid5                  14.92%    17.58%     15.22%     545,144    40.5s
+kan1_grid5                  14.64%    16.82%     14.41%     387,320    40.6s
+kan1_grid8                  14.07%    14.53%     13.34%     478,712    40.1s
+kan2_grid8_hidden64         13.21%    15.14%     14.71%     401,144    41.3s
+linear_baseline             11.79%    10.70%      7.89%     161,391    42.0s
+
+Saved ablation_results.csv

@@ -1,0 +1,26 @@
+# Dataset folders
+data/
+output/
+malayalam_characters_1_6_preprocessed_2/
+malayalam_letters_1_6/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+py_env/
+
+# Training checkpoints and model weights
+*.pth
+*.pt
+*.ckpt
+
+# Training logs
+*.log
+
+# IDE settings
+.vscode/

@@ -1,0 +1,7 @@
+﻿image,predicted_character,confidence,alternative_1,alternative_1_confidence,alternative_2,alternative_2_confidence,alternative_3,alternative_3_confidence
+malayalam_letters_1_6\1.png,അ,0.999999,അ,0.999999,ഉ,0.000001,ആ,0.000000
+malayalam_letters_1_6\2.png,ആ,0.999999,ആ,0.999999,ഊ,0.000001,അ,0.000000
+malayalam_letters_1_6\3.png,ഇ,1.000000,ഇ,1.000000,ഉ,0.000000,ആ,0.000000
+malayalam_letters_1_6\4.png,ഈ,1.000000,ഈ,1.000000,ഊ,0.000000,ഇ,0.000000
+malayalam_letters_1_6\5.png,ഉ,1.000000,ഉ,1.000000,ഇ,0.000000,അ,0.000000
+malayalam_letters_1_6\6.png,ഊ,1.000000,ഊ,1.000000,ഉ,0.000000,ഈ,0.000000
