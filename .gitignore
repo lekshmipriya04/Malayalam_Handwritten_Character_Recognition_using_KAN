@@ -24,3 +24,9 @@ py_env/
 
 # IDE settings
 .vscode/
+# Render app build files
+.venv/
+web/node_modules/
+web/dist/
+dataset_zip.zip
+!final_best_model.pth
