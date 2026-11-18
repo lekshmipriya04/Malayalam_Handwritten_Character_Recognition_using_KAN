@@ -1,0 +1,13 @@
+.venv
+**/__pycache__
+web/node_modules
+web/dist
+.ipynb_checkpoints
+dataset_zip.zip
+ablation.py
+ablation_log.txt
+ablation_results.csv
+final_history.csv
+final_training_curves.png
+final_train_log.txt
+train.py
